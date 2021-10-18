@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
 import 'package:stocknsell/Screens/color_utils.dart';
-import 'package:stocknsell/Screens/common_styles.dart';
+import 'file:///C:/Users/djillali/AndroidStudioProjects/ZE_livreur/lib/common_styles.dart';
 import 'package:stocknsell/Screens/raised_gradient_button.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 

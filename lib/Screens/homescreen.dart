@@ -668,7 +668,7 @@ class _MenuDashboardPageState extends State<MenuDashboardPage>
                               Container(
                                   child: Padding(
                                 padding: EdgeInsets.all(1.0),
-                                child: Column(
+                                   child: Column(
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [

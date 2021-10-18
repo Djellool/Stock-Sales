@@ -13,7 +13,7 @@ class DatabaseService {
   final CollectionReference VenteCollection =
       FirebaseFirestore.instance.collection('vente');
   final CollectionReference ProductCollection =
-      FirebaseFirestore.instance.collection('produit');
+      FirebaseFirestore.instance.collection('imene');
 
   void ajouterclient(
       String nom, String email, int phone, String URL, String Secteur) async {
@@ -134,9 +134,7 @@ class DatabaseService {
       } catch (e) {
         print(e.toString());
       }
-    } else {
-
-    }
+    } else {}
   }
 
   void savevente(
@@ -187,7 +185,7 @@ class DatabaseService {
         'baseprice': unitprice,
         'prixpromo': prixpromotionel,
         'couttotale': _couttotale,
-        'prix_achat':prix_achat,
+        'prix_achat': prix_achat,
       });
     }
   }
